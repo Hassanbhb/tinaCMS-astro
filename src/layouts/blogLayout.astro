@@ -1,0 +1,9 @@
+---
+const {frontmatter} = Astro.props
+console.log(frontmatter)
+---
+
+<div>
+  <h1> { frontmatter.title } </h1>
+  <slot />
+</div>
